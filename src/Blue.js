@@ -1,7 +1,12 @@
 import React from "react";
 import { NavLink, useHistory } from "react-router-dom";
 import { useStore } from "./hooks";
-import Shaco from "./model/wooden_table.glb";
+// import Shaco from "./model/fractal_girl_dancing.glb";
+// import Shaco from "./model/scifi_fheater.glb";
+//import Shaco from "./model/sculpture.glb";
+//import Shaco from "./model/shoedraco.glb";
+// import Shaco from "./model/wooden_table.glb";
+import Shaco from "./model/testBike2.gltf";
 export default function Blue() {
   const urlModel = useStore((state) => state.modelState);
   return (
@@ -11,6 +16,7 @@ export default function Blue() {
       <model-viewer
         id="test"
         ar
+        autoplay
         ar-modes="webxr scene-viewer quick-look"
         camera-controls
         src={Shaco}
