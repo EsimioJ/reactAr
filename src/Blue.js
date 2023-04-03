@@ -1,26 +1,27 @@
 import React from "react";
-import { NavLink, useHistory } from "react-router-dom";
 import { useStore } from "./hooks";
 // import Shaco from "./model/fractal_girl_dancing.glb";
 // import Shaco from "./model/scifi_fheater.glb";
 //import Shaco from "./model/sculpture.glb";
 //import Shaco from "./model/shoedraco.glb";
 // import Shaco from "./model/wooden_table.glb";
-import Shaco from "./model/testBike2.gltf";
+//import Shaco from "./model/testBike2.gltf";
+import Shaco from "./model/Sondrio1DEF.gltf";
 export default function Blue() {
-  const urlModel = useStore((state) => state.modelState);
   return (
     <div>
-      TEST BBLUE
-      <NavLink to="/render"> RENDER </NavLink>
       <model-viewer
         id="test"
         ar
+        camera-orbit="10deg 75deg" 
+        scale="0.1 0.1 0.1"
+        background-color="#622dcf"
         autoplay
         ar-modes="webxr scene-viewer quick-look"
         camera-controls
+        camera-target="3m 0m 0m" 
         src={Shaco}
-        alt="A 3D shoes"
+        alt="Benvenuto nella via dei palazzi di Sondrio"
       >
         <button
           slot="ar-button"
@@ -30,8 +31,8 @@ export default function Blue() {
             borderRadius: "4px",
             border: "none",
             position: "absolute",
-            top: "16px",
-            right: "16px"
+            bottom: "16px",
+            right: "30%"
           }}
         >
           Activate AR

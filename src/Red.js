@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink, useHistory } from "react-router-dom";
-export default function Blue() {
+export default function Red() {
   return (
     <div>
       TEST Red
