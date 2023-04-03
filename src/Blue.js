@@ -14,12 +14,12 @@ export default function Blue() {
         id="test"
         ar
         camera-orbit="10deg 75deg" 
-        scale="0.1 0.1 0.1"
+        scale="0.4 0.4 0.4"
         background-color="#622dcf"
         autoplay
         ar-modes="webxr scene-viewer quick-look"
         camera-controls
-        camera-target="3m 0m 0m" 
+        camera-target="1m 0m 0m" 
         src={Shaco}
         alt="Benvenuto nella via dei palazzi di Sondrio"
       >
