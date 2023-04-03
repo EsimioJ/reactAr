@@ -1,2 +1,4 @@
 # reactAr
-Created with CodeSandbox
+
+an AR Project in React with <model-viewer>
+
