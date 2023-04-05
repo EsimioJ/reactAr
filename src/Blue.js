@@ -14,7 +14,7 @@ export default function Blue() {
   return (
     <div>
       TEST BBLUE
-      <NavLink to="/render"> RENDER </NavLink>
+      {/* <NavLink to="/render"> RENDER </NavLink> */}
       <model-viewer
         id="test"
         ar
@@ -22,7 +22,7 @@ export default function Blue() {
         ar-modes="webxr scene-viewer quick-look"
         camera-controls
         src={Shaco}
-        alt="A 3D shoes"
+        alt="Sondrio"
       >
         <button
           slot="ar-button"

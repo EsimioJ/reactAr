@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.bee24e6e.css",
-    "main.js": "/static/js/main.d8b0947b.js",
+    "main.js": "/static/js/main.dc413218.js",
     "static/media/Sondrio1DEF.gltf": "/static/media/Sondrio1DEF.853a585965804d1ef2be.gltf",
     "index.html": "/index.html",
     "main.bee24e6e.css.map": "/static/css/main.bee24e6e.css.map",
-    "main.d8b0947b.js.map": "/static/js/main.d8b0947b.js.map"
+    "main.dc413218.js.map": "/static/js/main.dc413218.js.map"
   },
   "entrypoints": [
     "static/css/main.bee24e6e.css",
-    "static/js/main.d8b0947b.js"
+    "static/js/main.dc413218.js"
   ]
 }
