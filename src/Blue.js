@@ -13,7 +13,6 @@ export default function Blue() {
   const urlModel = useStore((state) => state.modelState);
   return (
     <div>
-      TEST BBLUE
       {/* <NavLink to="/render"> RENDER </NavLink> */}
       <model-viewer
         id="test"
